@@ -32,7 +32,7 @@ const Header = () => {
 					width={80}
 					height={80}
 					className="cursor-pointer rounded-full w-16 h-16 md:w-20 md:h-20"
-					priority
+					
 				/>
 
 				{/* Desktop Navigation */}
