@@ -43,7 +43,7 @@ const services: Service[] = [
 
 const Services: FC = () => {
   return (
-    <section className="  px-6">
+    <section className=" mb-4 px-6">
       <div className="max-w-[1200px] mx-auto text-center">
         {/* Animacija naslova */}
         <h2 className="text-3xl font-bold text-[var(--platium)] mb-8 opacity-0 animate-fadeInUp">

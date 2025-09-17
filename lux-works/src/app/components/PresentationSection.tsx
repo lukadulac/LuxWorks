@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image";
-
+import { useRouter } from "next/navigation";
 const PresentationSection = () => {
+	const router = useRouter();
 	return (
 		<section className="flex flex-col items center justify-center md:flex-row md:items-start md:justify-start gap-[50px]">
 			<div>
@@ -12,7 +14,7 @@ const PresentationSection = () => {
 					UI/UX Design to developers, we will provide the best service for those
 					of you who use our services.
 				</p>
-				<button className="group flex items-center gap-[8px] mt-[50px] bg-[var(--bdazzledblue)] text-[var(--platinum)] p-3.5 rounded-md cursor-pointer transition-all duration-300 hover:bg-[var(--darkskyblue)] hover:text-[var(--yankeesblue)] font-medium">
+				<button onClick={() => router.push("/services")} className="group flex items-center gap-[8px] mt-[50px] bg-[var(--bdazzledblue)] text-[var(--platinum)] p-3.5 rounded-md cursor-pointer transition-all duration-300 hover:bg-[var(--darkskyblue)] hover:text-[var(--yankeesblue)] font-medium">
 					Our Services
 					<Image
 						src="/arrow-right-up.svg"
