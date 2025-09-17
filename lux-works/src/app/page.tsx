@@ -1,6 +1,7 @@
 import Image from "next/image";
 import PresentationSection from "./components/PresentationSection";
 import BestChoiceSection from "./components/BestChoiceSection";
+import Technologies from "./components/Technologies";
 
 export default function Home() {
 	return (
@@ -10,6 +11,9 @@ export default function Home() {
 			</div>
 			<div>
 				<BestChoiceSection />
+			</div>
+			<div>
+				<Technologies />
 			</div>
 		</section>
 	);

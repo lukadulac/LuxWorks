@@ -17,10 +17,10 @@ const BestChoiceSection = () => {
 	};
 
 	return (
-		<section className="min-h-screen mt-20">
+		<section className="mt-20">
 			<div className="SectionHeader">
 				<h1 className="text-[32px] font-bold text-[var(--platinum)] ">
-					Why LuxWroks is the best choice?
+					Why LuxWorks is the best choice?
 				</h1>
 			</div>
 			<div className="SectionContent border-2 border-white p-2 rounded-xl mt-4">
