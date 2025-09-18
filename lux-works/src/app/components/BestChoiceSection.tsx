@@ -5,11 +5,39 @@ const BestChoiceSection = () => {
 	const [open, setOpen] = useState<number | null>(null);
 
 	const items = [
-		{ title: "Feature 1", description: "Description for feature 1." },
-		{ title: "Feature 2", description: "Description for feature 2." },
-		{ title: "Feature 3", description: "Description for feature 3." },
-		{ title: "Feature 4", description: "Description for feature 4." },
-		{ title: "Feature 5", description: "Description for feature 5." },
+		{
+			title: "Why work with us?",
+			description:
+				"Because we work professionally with modern technologies and always strive to deliver a high-quality product.",
+		},
+		{
+			title: "About our work",
+			description:
+				"We don't just snap together Lego blocks and call it a website — we carefully analyze what the client truly wants and then develop it into clean, production-ready code.",
+		},
+		{
+			title: "Worried about payment?",
+			description:
+				"There’s no need to worry — our pricing is based on the scope of your project. You make an initial 50% payment at the start, and the remaining balance once the project is successfully delivered.",
+		},
+		{
+			title: "Plan your project",
+			description:
+				"Once you reach out to us through the contact form or directly via email, we’ll schedule a meeting to discuss the project’s priorities, design direction, and development process. After that, we’ll provide you with an initial project estimate — completely free of charge.",
+		},
+		{
+			title: "Ongoing Support",
+			description:
+				"We don’t just deliver your project and disappear — we provide ongoing support, updates, and improvements to ensure long-term success.",
+		},
+		{
+			title:"Transparent Communication",
+			description:"We believe in open and transparent communication throughout the entire process, so you’ll always know what stage your project is in.",
+		},
+		{
+			title:"Tailored Solutions",
+			description:"Every project is unique — we tailor our solutions to fit your specific goals, brand identity, and audience needs.",
+		}
 	];
 
 	const toggle = (index: number) => {
