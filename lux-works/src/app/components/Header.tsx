@@ -32,10 +32,8 @@ const Header = () => {
 					width={80}
 					height={80}
 					className="cursor-pointer rounded-full w-16 h-16 md:w-20 md:h-20"
-					
 				/>
 
-				{/* Desktop Navigation */}
 				<nav className="hidden md:block">
 					<ul className="flex gap-6 lg:gap-8 text-[var(--platinum)] text-base lg:text-lg">
 						<li>
@@ -90,7 +88,6 @@ const Header = () => {
 					</Link>
 				</div>
 
-				{/* Mobile menu button */}
 				<div className="md:hidden flex items-center">
 					<button
 						onClick={toggleMenu}
@@ -98,7 +95,6 @@ const Header = () => {
 						aria-label={isOpen ? "Close menu" : "Open menu"}
 					>
 						<div className="relative w-6 h-5">
-							{/* Menu Icon */}
 							<div
 								className={`absolute inset-0 flex flex-col justify-between transition-all duration-300 ${
 									isOpen ? "opacity-0 rotate-90" : "opacity-100"
@@ -113,7 +109,6 @@ const Header = () => {
 								/>
 							</div>
 
-							{/* Close Icon */}
 							<div
 								className={`absolute inset-0 flex items-center justify-center transition-all duration-300 ${
 									isOpen ? "opacity-100 rotate-0" : "opacity-0 -rotate-90"
@@ -137,7 +132,7 @@ const Header = () => {
 				className={`fixed inset-0 bg-[var(--bdazzledblue)] z-30 transform ${
 					isOpen ? "translate-x-0" : "translate-x-full"
 				} transition-transform duration-300 ease-in-out pt-24 px-6 md:hidden`}
-				style={{ top: "5rem" }} // Adjust this value based on your header height
+				style={{ top: "5rem" }}
 			>
 				<nav className="h-full">
 					<ul className="flex flex-col items-center space-y-8 text-2xl text-[var(--platinum)]">
