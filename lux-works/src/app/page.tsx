@@ -3,23 +3,23 @@ import PresentationSection from "./components/PresentationSection";
 import BestChoiceSection from "./components/BestChoiceSection";
 import Technologies from "./components/Technologies";
 import ContacUs from "./components/ContactUs";
-
+import AnimateOnScroll from "./components/AnimateOnScroll";
 
 export default function Home() {
 	return (
 		<section className="min-h-screen">
-			<div>
+			<AnimateOnScroll>
 				<PresentationSection />
-			</div>
-			<div>
+			</AnimateOnScroll>
+			<AnimateOnScroll>
 				<BestChoiceSection />
-			</div>
-			<div>
+			</AnimateOnScroll>
+			<AnimateOnScroll>
 				<Technologies />
-			</div>
-			<div>
+			</AnimateOnScroll>
+			<AnimateOnScroll>
 				<ContacUs />
-			</div>
+			</AnimateOnScroll>
 		</section>
 	);
 }
