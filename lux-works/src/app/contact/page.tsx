@@ -52,7 +52,7 @@ const Contact = () => {
 				className="flex flex-col gap-4 w-full md:w-1/2 bg-[var(--yankeesblue)] p-6 rounded-xl shadow-md"
 			>
 				<label htmlFor="name" className="font-medium">
-					Your Name
+					Your Name:
 				</label>
 				<div className="relative w-full">
 					<input
