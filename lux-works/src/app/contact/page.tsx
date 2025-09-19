@@ -1,7 +1,42 @@
+'use client';
 import Image from "next/image";
+import { useState } from "react";
 
 const Contact = () => {
-	{/* TODO: add contact form logic on right email */ }
+	{
+		/* TODO: add contact form logic on right email */
+	}
+	const [loading, setLoading] = useState(false);
+	const [status, setStatus] = useState("");
+
+	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+		e.preventDefault();
+		setLoading(true);
+
+		const formData = new FormData(e.currentTarget);
+		const data = {
+			name: formData.get("name"),
+			email: formData.get("email"),
+			message: formData.get("message"),
+		};
+
+		const res = await fetch("/api/contact", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify(data),
+		});
+
+		if (res.ok) {
+			setStatus("Message sent successfully!");
+		} else {
+			setStatus("Failed to send message. Please try again later.");
+		}
+
+		setLoading(false);
+	};
+
 	return (
 		<section className="flex flex-col md:flex-row items-center md:items-start justify-between w-full max-w-5xl mx-auto py-12 px-4 gap-8">
 			<header className="w-full md:w-1/2 md:pr-8">
@@ -12,6 +47,7 @@ const Contact = () => {
 			</header>
 
 			<form
+				onSubmit={handleSubmit}
 				action="contact"
 				className="flex flex-col gap-4 w-full md:w-1/2 bg-[var(--yankeesblue)] p-6 rounded-xl shadow-md"
 			>
@@ -81,8 +117,10 @@ const Contact = () => {
 					type="submit"
 					className="bg-[var(--bdazzledblue)] font-bold cursor-pointer text-[var(--platinum)] text-[18px] py-2 px-4 rounded-md hover:bg-[var(--darkskyblue)] hover:text-[var(--yankeesblue)] transition-all duration-300"
 				>
-					Send
+					{loading ? "Sending..." : "Send "}
 				</button>
+
+				{status && <p className="mt-2 text-center">{status}</p>}
 			</form>
 		</section>
 	);
