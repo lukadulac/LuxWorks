@@ -44,6 +44,7 @@ const Contact = () => {
 				<p className="mt-4 text-lg text-[var(--darkskyblue)]">
 					Have a question or want to work together? Send me a message.
 				</p>
+				<p className="mt-1 text-lg text-[var(--darkskyblue)]">Or contact us directly via mail luxworks4@gmail.com</p>
 			</header>
 
 			<form
