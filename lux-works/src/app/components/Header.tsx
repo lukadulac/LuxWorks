@@ -20,7 +20,7 @@ const Header = () => {
 	};
 
 	return (
-		<header className="max-w-[1200px] mx-auto fixed top-0 left-0 right-0 z-40 py-4 px-4 md:px-10 bg-[var(--bdazzledblue)] transition-all duration-300">
+		<header className="max-w-[100vw] mx-auto fixed top-0 left-0 right-0 z-40 py-4 px-4 md:px-10 bg-[var(--bdazzledblue)] transition-all duration-300">
 			<div className="w-full max-w-[1200px] mx-auto flex justify-between items-center">
 				<Image
 					onClick={() => {

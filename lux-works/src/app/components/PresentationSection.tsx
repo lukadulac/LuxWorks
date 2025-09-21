@@ -4,15 +4,13 @@ import { useRouter } from "next/navigation";
 const PresentationSection = () => {
 	const router = useRouter();
 	return (
-		<section className="flex flex-col items center justify-center md:flex-row md:items-start md:justify-start gap-[50px]">
+		<section className="flex flex-col items center justify-center md:my-4 md:flex-row md:items-start md:justify-start gap-[50px]">
 			<div>
 				<h1 className="text-[42px] font-bold text-[var(--platinum)]">
-					Build Your Awesome Website
+					Build Your Awesome <br className="none md:block"/> Website
 				</h1>
 				<p className="text-[16px] text-[var(--darkskyblue)] mt-[30px]">
-					Enver studio is a digital studio that offers several services such as
-					UI/UX Design to developers, we will provide the best service for those
-					of you who use our services.
+					At LuxWorks, we develop custom, responsive websites for both desktop and mobile devices, built with modern technologies and tailored through direct collaboration with our clients to ensure secure, scalable, and results-driven solutions.
 				</p>
 				<button onClick={() => router.push("/services")} className="group flex items-center gap-[8px] mt-[50px] bg-[var(--bdazzledblue)] text-[var(--platinum)] p-3.5 rounded-md cursor-pointer transition-all duration-300 hover:bg-[var(--darkskyblue)] hover:text-[var(--yankeesblue)] font-medium">
 					Our Services
@@ -33,7 +31,7 @@ const PresentationSection = () => {
 				</button>
 			</div>
 			<div className="relative mt-[50px] w-full flex justify-center items-center md:mt-2">
-				<div className="absolute top-0 left-0 flex items-center gap-4">
+				<div className="absolute top-0 left-0 md:left-[-20px]  flex items-center gap-4">
 					<Image
 						src="/waves-icon.svg"
 						alt="Waves"
@@ -82,7 +80,7 @@ const PresentationSection = () => {
 						alt="Play"
 						width={100}
 						height={100}
-						className="relative right-4 w-[65px] h-[75px] md:w-[100px] md:h-[100px]"
+						className="relative right-4 md:right-8 w-[65px] h-[75px] md:w-[100px] md:h-[100px]"
 					/>
 					<Image
 						src="/add-icon.svg"
