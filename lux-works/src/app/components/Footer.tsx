@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
 import { usePathname } from "next/navigation";
 const Footer = () => {
 	const pathname = usePathname();
@@ -27,12 +26,14 @@ const Footer = () => {
 					/>
 				</div>
 				<nav>
-					<ul className="flex flex-wrap gap-4 text-[var(--platinum)] text-sm md:text-base mt-4">
+					<ul className="flex flex-wrap gap-4 text-[var(--platinum)] text-sm md:text-base mt-4 md:mt-0">
 						{/* TODO: create pages and add footer links here */}
 						<li>Support</li>
 						<li>Privacy Policy</li>
 						<li>Terms of Service</li>
-						<li>Contact</li>
+						<li>
+							<a href="/contact">Contact</a>
+						</li>
 					</ul>
 				</nav>
 				<p>&copy; {new Date().getFullYear()} LuxWorks. All rights reserved</p>
