@@ -1,4 +1,3 @@
-import Image from "next/image";
 import PresentationSection from "./components/PresentationSection";
 import BestChoiceSection from "./components/BestChoiceSection";
 import Technologies from "./components/Technologies";

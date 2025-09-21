@@ -40,7 +40,7 @@ const Contact = () => {
 	return (
 		<section className="flex flex-col md:flex-row items-center md:items-start justify-between w-full max-w-5xl mx-auto py-12 px-4 gap-8">
 			<header className="w-full md:w-1/2 md:pr-8">
-				<h1 className="text-4xl font-bold">Let's Get In Touch.</h1>
+				<h1 className="text-4xl font-bold">Let&apos;s Get In Touch.</h1>
 				<p className="mt-4 text-lg text-[var(--darkskyblue)]">
 					Have a question or want to work together? Send me a message.
 				</p>

@@ -1,13 +1,6 @@
 "use client";
 import { FC } from "react";
-import {
-	Code,
-	ShoppingCart,
-	Layers,
-	Globe,
-	Smartphone,
-	Settings,
-} from "lucide-react";
+import { Code, ShoppingCart, Layers, Globe, Smartphone } from "lucide-react";
 import Image from "next/image";
 
 interface Service {
