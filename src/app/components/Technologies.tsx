@@ -119,7 +119,7 @@ const Technologies = () => {
         transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-lg cursor-pointer hover:text-[var(--yankeesblue)]"
 				>
 					<Image
-						src="/node.js-icon.svg"
+						src="/Node.js-icon.svg"
 						alt="Node.js icon"
 						width={24}
 						height={24}
