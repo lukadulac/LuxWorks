@@ -64,7 +64,7 @@ const PresentationSection = () => {
 					></div>
 
 					<Image
-						src="/hero-image5.png"
+						src="/Slika1.png"
 						alt="hero-image"
 						width={300}
 						height={420}
