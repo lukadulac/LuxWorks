@@ -7,7 +7,7 @@ const PresentationSection = () => {
 		<section className="flex flex-col items center justify-center md:my-4 md:flex-row md:items-start md:justify-start gap-[50px]">
 			<div>
 				<h1 className="text-[42px] font-bold text-[var(--platinum)]">
-					Build Your Awesome <br className="none md:block"/> Website.
+					Build Your Awesome <br className="none md:block"/> Website
 				</h1>
 				<p className="text-[16px] text-[var(--darkskyblue)] mt-[30px]">
 					At LuxWorks, we develop custom, responsive websites for both desktop and mobile devices, built with modern technologies and tailored through direct collaboration with our clients to ensure secure, scalable, and results-driven solutions.
