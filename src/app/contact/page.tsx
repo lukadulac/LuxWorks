@@ -40,7 +40,7 @@ const Contact = () => {
 	return (
 		<section className="flex flex-col md:flex-row items-center md:items-start justify-between w-full max-w-5xl mx-auto py-12 px-4 gap-8">
 			<header className="w-full md:w-1/2 md:pr-8">
-				<h1 className="text-4xl font-bold">Let&apos;s Get In Touch.</h1>
+				<h1 className="text-4xl font-bold text-white">Let&apos;s Get In Touch.</h1>
 				<p className="mt-4 text-lg text-[var(--darkskyblue)]">
 					Have a question or want to work together? Send me a message.
 				</p>
@@ -52,7 +52,7 @@ const Contact = () => {
 				action="contact"
 				className="flex flex-col gap-4 w-full md:w-1/2 bg-[var(--yankeesblue)] p-6 rounded-xl shadow-md"
 			>
-				<label htmlFor="name" className="font-medium">
+				<label htmlFor="name" className="font-medium text-white">
 					Your Name:
 				</label>
 				<div className="relative w-full">
@@ -73,7 +73,7 @@ const Contact = () => {
 					/>
 				</div>
 
-				<label htmlFor="email" className="font-medium">
+				<label htmlFor="email" className="font-medium text-white">
 					Email:
 				</label>
 				<div className="relative w-full">
@@ -94,7 +94,7 @@ const Contact = () => {
 					/>
 				</div>
 
-				<label htmlFor="message" className="font-medium">
+				<label htmlFor="message" className="font-medium text-white">
 					Message:
 				</label>
 				<div className="relative w-full">

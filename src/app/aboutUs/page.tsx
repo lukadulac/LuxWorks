@@ -6,7 +6,7 @@ const AboutUs = () => {
 	return (
 		<>
 			<section className="max-w-[1200px] mx-auto text-center animate-fadeInUp flex flex-col items-center">
-				<h1 className="text-4xl font-bold text-center my-8 animate-fadeInUp">
+				<h1 className="text-4xl text-white font-bold text-center my-8 animate-fadeInUp">
 					About Us
 				</h1>
 				<TextType

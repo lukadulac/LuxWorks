@@ -55,7 +55,7 @@ const Services: FC = () => {
 		<section className=" mb-4 px-6">
 			<div className="max-w-[1200px] mx-auto text-center">
 				{/* Animacija naslova */}
-				<h2 className="text-3xl font-bold text-[var(--platium)] mb-8 opacity-0 animate-fadeInUp">
+				<h2 className="text-3xl text-white font-bold text-[var(--platium)] mb-8 opacity-0 animate-fadeInUp">
 					Our Services
 				</h2>
 				<div className="grid gap-8 md:grid-cols-3">

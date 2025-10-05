@@ -20,7 +20,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">HTML</p>
+					<p className="transition-colors duration-300 text-white ">HTML</p>
 				</article>
 				<article
 					className="p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center flex items-center gap-2 
@@ -33,7 +33,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">CSS</p>
+					<p className="transition-colors duration-300 text-white">CSS</p>
 				</article>
 				<article
 					className="flex items-center gap-2 p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center 
@@ -46,7 +46,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">JavaScript</p>
+					<p className="transition-colors duration-300 text-white">JavaScript</p>
 				</article>
 				<article
 					className="p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center flex items-center gap-2 
@@ -59,7 +59,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">React.js</p>
+					<p className="transition-colors duration-300 text-white">React.js</p>
 				</article>
 				<article
 					className="p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center flex items-center gap-2 
@@ -72,7 +72,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">ReactNative.js</p>
+					<p className="transition-colors duration-300 text-white">ReactNative.js</p>
 				</article>
 				<article
 					className="flex items-center gap-2 p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center 
@@ -85,7 +85,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">Next.js</p>
+					<p className="transition-colors duration-300 text-white">Next.js</p>
 				</article>
 
 				<article
@@ -99,7 +99,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">TypeScript</p>
+					<p className="transition-colors duration-300 text-white">TypeScript</p>
 				</article>
 				<article
 					className="flex items-center gap-2 p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center 
@@ -112,7 +112,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">Tailwind CSS</p>
+					<p className="transition-colors duration-300 text-white">Tailwind CSS</p>
 				</article>
 				<article
 					className="flex items-center gap-2 p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center 
@@ -125,7 +125,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">Node.js</p>
+					<p className="transition-colors duration-300 text-white">Node.js</p>
 				</article>
 				<article
 					className="flex items-center gap-2 p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center 
@@ -138,7 +138,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">Express.js</p>
+					<p className="transition-colors duration-300 text-white">Express.js</p>
 				</article>
 				<article
 					className="flex items-center gap-2 p-4 bg-[var(--bdazzledblue)] rounded-md w-full text-center 
@@ -151,7 +151,7 @@ const Technologies = () => {
 						height={24}
 						className="transition-transform duration-300 hover:rotate-12"
 					/>
-					<p className="transition-colors duration-300">WordPress</p>
+					<p className="transition-colors duration-300 text-white">WordPress</p>
 				</article>
 			</main>
 		</section>
