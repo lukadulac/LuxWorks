@@ -54,7 +54,6 @@ const Services: FC = () => {
 	return (
 		<section className=" mb-4 px-6">
 			<div className="max-w-[1200px] mx-auto text-center">
-				{/* Animacija naslova */}
 				<h2 className="text-3xl text-white font-bold text-[var(--platium)] mb-8 opacity-0 animate-fadeInUp">
 					Our Services
 				</h2>
