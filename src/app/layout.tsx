@@ -17,6 +17,22 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=G-6LMQRS2HW5"
+				></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6LMQRS2HW5');
+`,
+					}}
+				/>
+			</head>
 			<body>
 				<Header />
 				<main className="min-h-screen max-w-[1200px] mx-auto pt-32 px-4 md:px-6">
