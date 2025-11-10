@@ -13,6 +13,11 @@ export const metadata: Metadata = {
 	description:
 		"Lux Works delivers high-end web development, design, and digital solutions for ambitious businesses. Transform your digital presence with our expert team.",
 	keywords: [
+		"lux works",
+		"Izrada sajtova",
+		"izrada web sajtova",
+		"Izrada web shopova",
+		"Izrada prezentacionih sajtova",
 		"web development",
 		"digital agency",
 		"web design",
@@ -23,14 +28,14 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://luxworks.business/", // Change to your actual domain
+		url: "https://luxworks.business/", 
 		siteName: "Lux Works",
 		title: "Lux Works - Premium Web Development & Digital Solutions",
 		description:
 			"Lux Works delivers high-end web development, design, and digital solutions for ambitious businesses.",
 		images: [
 			{
-				url: "/og-image.jpg", // You need to create this image
+				url: "/og-image.jpg", 
 				width: 1200,
 				height: 630,
 				alt: "Lux Works",
@@ -48,7 +53,7 @@ export const metadata: Metadata = {
 		icon: "/LuxWorksLogo.png",
 		apple: "/LuxWorksLogo.png",
 	},
-	metadataBase: new URL("https://luxworks.business/"), // Change to your actual domain
+	metadataBase: new URL("https://luxworks.business/"), 
 	robots: {
 		index: true,
 		follow: true,
