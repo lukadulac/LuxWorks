@@ -12,8 +12,8 @@ const PresentationSection = () => {
 				<p className="text-[16px] text-[var(--darkskyblue)] mt-[30px]">
 					At LuxWorks, we develop custom, responsive websites for both desktop and mobile devices, built with modern technologies and tailored through direct collaboration with our clients to ensure secure, scalable, and results-driven solutions.
 				</p>
-				<button onClick={() => router.push("/services")} className="group flex items-center gap-[8px] mt-[50px] bg-[var(--bdazzledblue)] text-[var(--platinum)] p-3.5 rounded-md cursor-pointer transition-all duration-300 hover:bg-[var(--darkskyblue)] hover:text-[var(--yankeesblue)] font-medium">
-					Our Services
+				<button onClick={() => router.push("/contact")} className="group flex items-center gap-[8px] mt-[50px] bg-[var(--bdazzledblue)] text-[var(--platinum)] p-3.5 rounded-md cursor-pointer transition-all duration-300 hover:bg-[var(--darkskyblue)] hover:text-[var(--yankeesblue)] font-medium">
+					Get In Touch
 					<Image
 						src="/arrow-right-up.svg"
 						alt="Arrow"
