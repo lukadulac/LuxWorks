@@ -3,7 +3,7 @@ import BestChoiceSection from "./components/BestChoiceSection";
 import Technologies from "./components/Technologies";
 import ContacUs from "./components/ContactUs";
 import AnimateOnScroll from "./components/AnimateOnScroll";
-
+import Services from "./components/Services";
 export default function Home() {
 	return (
 		<section className="min-h-screen">
@@ -12,6 +12,9 @@ export default function Home() {
 			</AnimateOnScroll>
 			<AnimateOnScroll>
 				<BestChoiceSection />
+			</AnimateOnScroll>
+			<AnimateOnScroll>
+				<Services/>
 			</AnimateOnScroll>
 			<AnimateOnScroll>
 				<Technologies />

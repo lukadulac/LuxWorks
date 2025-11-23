@@ -44,14 +44,14 @@ const Header = () => {
 								Home
 							</Link>
 						</li>
-						<li>
+						{/* <li>
 							<Link
 								href="/services"
 								className="hover:text-[var(--darkskyblue)] transition-colors duration-200 relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[var(--darkskyblue)] after:left-0 after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
 							>
 								Services
 							</Link>
-						</li>
+						</li> */}
 						<li>
 							<Link
 								href="/ourWork"
@@ -145,7 +145,7 @@ const Header = () => {
 								Home
 							</Link>
 						</li>
-						<li>
+						{/* <li>
 							<Link
 								href="/services"
 								onClick={closeMenu}
@@ -153,7 +153,7 @@ const Header = () => {
 							>
 								Services
 							</Link>
-						</li>
+						</li> */}
 						<li>
 							<Link
 								href="/ourWork"
