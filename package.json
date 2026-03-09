@@ -2,13 +2,12 @@
   "name": "lux-works",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev ",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "vercel-build": "npm install && next build"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@react-email/render": "^1.2.3",
     "@vercel/speed-insights": "^1.2.0",
